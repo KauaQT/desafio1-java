@@ -22,7 +22,7 @@ public class Livro {
     private String autor;
     private LocalDate dataPublicacao;
     @OneToMany
-    private List<Comentario> comentarios;
+    private List<Comment> comentarios;
     @OneToMany
-    private List<Classificacao> classificacoes;
+    private List<Classification> classificacoes;
 }
